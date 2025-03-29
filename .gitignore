@@ -1,0 +1,9 @@
+
+.*              # ignore all dotfolders
+!.gitignore      # keep this file
+
+venv/
+tests/           
+__pycache__/
+*.pyc
+.pytest_cache/
