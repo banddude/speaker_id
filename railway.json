@@ -1,0 +1,6 @@
+{
+  "build": {
+    "buildCommand": "echo 'No build needed'",
+    "startCommand": "cd backend && python simple.py"
+  }
+} 
