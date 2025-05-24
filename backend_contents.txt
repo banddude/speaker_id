@@ -1,0 +1,33 @@
+backend
+├── app.py
+├── modules
+│   ├── __init__.py
+│   ├── auto_update_pinecone.py
+│   ├── database
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-310.pyc
+│   │   │   ├── db_operations.cpython-310.pyc
+│   │   │   └── s3_operations.cpython-310.pyc
+│   │   ├── db_operations.py
+│   │   ├── s3_operations.py
+│   │   └── schema.sql
+│   ├── embed.py
+│   └── speaker_id.py
+├── README.md
+├── requirements.txt
+└── static
+    ├── css
+    │   ├── pinecone.css
+    │   └── styles.css
+    ├── favicon.ico
+    ├── index.html
+    ├── js
+    │   ├── app.js
+    │   ├── dashboard.js
+    │   ├── fix_s3_deletion.js
+    │   ├── pinecone.js
+    │   └── speakers.js
+    └── test.html
+
+7 directories, 24 files
